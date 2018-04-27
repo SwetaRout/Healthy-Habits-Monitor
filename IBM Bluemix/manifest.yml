@@ -1,0 +1,11 @@
+---
+applications:
+ - path: .
+   memory: 256M
+   instances: 1
+   domain: mybluemix.net
+   name: HW4-Door-Cloud
+   host: HW4-Door-Cloud
+   disk_quota: 1024M
+   service:
+    - IoT-Door-Proj
